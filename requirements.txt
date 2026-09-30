@@ -1,0 +1,5 @@
+selenium
+botcity-framework-core
+botcity-framework-base
+python-dotenv
+pytest
