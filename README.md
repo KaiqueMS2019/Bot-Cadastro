@@ -327,7 +327,7 @@ Exemplo:
 results/
 ├── automation.log
 ├── buyer.png
-└── products.png
+└── products_registeered_registered.png
 ```
 
 Os arquivos são gerados durante a execução e não precisam ser versionados.
@@ -343,7 +343,7 @@ O comprador possui:
 ```text
 first_name
 last_name
-zip_code
+cep
 ```
 
 Exemplo:
@@ -383,7 +383,7 @@ Os dados extraídos são armazenados em CSV.
 ### `buyer.csv`
 
 ```csv
-first_name,last_name,zip_code
+first_name,last_name,cep
 João,Silva,13400-000
 ```
 
@@ -491,8 +491,6 @@ Nome
       ↓
 Sobrenome
       ↓
-Endereço/Localização
-      ↓
 CEP
       ↓
 Salvar
@@ -580,8 +578,8 @@ Exemplo:
 
 ```text
 results/
-├── buyer.png
-└── products.png
+├── buyer_registered.png
+└── products_registered.png
 ```
 
 As screenshots permitem comprovar visualmente:
